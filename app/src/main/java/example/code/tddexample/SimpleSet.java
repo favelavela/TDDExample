@@ -19,11 +19,20 @@ public class SimpleSet {
         return addedElements;
     }
 
+
     public boolean contains(int i) {
         for(int element : container) {
             if(element == i) return true;
         }
         return false;
     }
+
+    public void blabla () {
+
+        // Helloooooo
+
+
+    }
+
 
 }
