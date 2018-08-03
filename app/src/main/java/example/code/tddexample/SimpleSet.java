@@ -19,7 +19,6 @@ public class SimpleSet {
         return addedElements;
     }
 
-
     public boolean contains(int i) {
         for(int element : container) {
             if(element == i) return true;
@@ -27,12 +26,16 @@ public class SimpleSet {
         return false;
     }
 
-    public void blabla () {
 
-        // Helloooooo
-
-
+    public void removeElement(int i) {
+        for (int j = 0; j < container.length; j++) {
+            if (container[j] == i) {
+                for (int k = j; k < container.length - 1; k++) {
+                    container[k] = container[k+1];
+                }
+                addedElements--;
+            }
+        }
     }
-
 
 }

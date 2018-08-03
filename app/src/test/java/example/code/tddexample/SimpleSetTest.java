@@ -14,10 +14,10 @@ public class SimpleSetTest {
         simpleSet = new SimpleSet();
     }
 
-    @Test
-    public void simpleSet_ifSimpleSetIsEmpty_returnTrue() {
-        assertTrue(simpleSet.isEmpty());
-    }
+    //@Test
+   // public void simpleSet_ifSimpleSetIsEmpty_returnTrue() {
+     //   assertTrue(simpleSet.isEmpty());
+   // }
 
     @Test
     public void simpleSet_ifSimpleSetIsNotEmpty_returnFalse() {
@@ -78,4 +78,6 @@ public class SimpleSetTest {
 
         assertFalse(simpleSet.addElement(1));
     }
+
+
 }
