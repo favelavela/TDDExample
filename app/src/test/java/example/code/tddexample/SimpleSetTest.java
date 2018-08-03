@@ -48,36 +48,37 @@ public class SimpleSetTest {
         assertFalse(simpleSet.contains(1));
     }
 
-//    @Test
-//    public void simpleSet_ifElementRemoved_setDoesNotContainElement() {
-//        simpleSet.addElement(1);
-//
-//        assertTrue(simpleSet.contains(1));
-//
-//        simpleSet.removeElement(1);
-//
-//        assertFalse(simpleSet.contains(1));
-//    }
-//
-//    @Test
-//    public void simpleSet_ifElementRemoved_returnNewCount() {
-//        simpleSet.addElement(1);
-//
-//        assertTrue(simpleSet.contains(1));
-//        assertEquals(1, simpleSet.elementCount());
-//
-//        simpleSet.removeElement(1);
-//
-//        assertFalse(simpleSet.contains(1));
-//        assertEquals(0, simpleSet.elementCount());
-//    }
+    @Test
+    public void simpleSet_ifElementRemoved_setDoesNotContainElement() {
+        simpleSet.addElement(1);
+
+        assertTrue(simpleSet.contains(1));
+
+        simpleSet.removeElement(1);
+
+        assertFalse(simpleSet.contains(1));
+    }
 
     @Test
-    public void simpleSet_ifDuplicatedElementAdded_returnFalse() {
+    public void simpleSet_ifElementRemoved_returnNewCount() {
+        simpleSet.addElement(1);
+
+        assertTrue(simpleSet.contains(1));
+        assertEquals(1, simpleSet.elementCount());
+
+        simpleSet.removeElement(1);
+
+        assertFalse(simpleSet.contains(1));
+        assertEquals(0, simpleSet.elementCount());
+    }
+
+    @Test
+    public void simpleSet_ifDuplicatedElementAdded_returnFalseByAAmir() {
         simpleSet.addElement(1);
 
         assertFalse(simpleSet.addElement(1));
     }
 
+//checking branches
 
 }
