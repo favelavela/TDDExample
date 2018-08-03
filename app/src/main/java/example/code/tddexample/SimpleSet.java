@@ -14,7 +14,7 @@ public class SimpleSet {
         container[addedElements++] = i;
         return true;
     }
-
+// JAMES WAS HERE
     public int elementCount() {
         return addedElements;
     }
