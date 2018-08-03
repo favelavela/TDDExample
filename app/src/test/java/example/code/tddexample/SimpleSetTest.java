@@ -26,13 +26,13 @@ public class SimpleSetTest {
         assertFalse(simpleSet.isEmpty());
     }
 
-    @Test
-    public void simpleSet_ifSimpleSetIsNotEmpty_returnCount() {
-        simpleSet.addElement(1);
-        simpleSet.addElement(2);
-
-        assertEquals(2, simpleSet.elementCount());
-    }
+ //   @Test
+ //   public void simpleSet_ifSimpleSetIsNotEmpty_returnCount() {
+  //      simpleSet.addElement(1);
+//        simpleSet.addElement(2);
+//
+//        assertEquals(2, simpleSet.elementCount());
+//    }
 
     @Test
     public void simpleSet_ifSimpleSetContainsElement_returnTrue() {
