@@ -38,4 +38,10 @@ public class SimpleSet {
         }
     }
 
+
+    public void SomethingToTry () {
+
+      String blablal;
+    }
+
 }
